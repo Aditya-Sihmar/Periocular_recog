@@ -6,7 +6,7 @@ from skimage.feature import hog
 from skimage import data, exposure
 class Feature:
     def __init__(self, path):
-        self.path=path
+        self.path=path 
     def hog(self):
         image = cv2.imread(self.path)
 
